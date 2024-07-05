@@ -23,12 +23,12 @@ body {
 
 .diagonal-strip {
     position: absolute;
-    top: -20%; /* Ajuste para asegurar que la franja cubra completamente la esquina */
+    top: -20%; 
     right: 0;
-    width: 200%; /* Ancho aumentado para cubrir toda la pantalla */
-    height: 20%; /* Altura aumentada para cubrir toda la pantalla */
+    width: 200%; 
+    height: 20%; 
     background-color: rgba(255, 0, 0, 0.826);
-    transform: rotate(-38deg);
+    transform: rotate(-45deg);
     transform-origin: top right;
     z-index: 0;
 }
